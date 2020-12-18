@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Images</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        .card-body{
+            background-color: rgb(234, 246, 255);
+        }
+        .is-form-valid{
+            border: 1px solid rgb(116, 238, 116);
+            border-left:15px solid rgb(116, 238, 116) ;
+            box-shadow: 0 0 5px rgb(116, 238, 116);
+        }
+        .is-form-invalid{
+            border: 1px solid rgb(240, 41, 41);
+            border-left:15px solid rgb(240, 41, 41) ;
+            box-shadow: 0 0 5px rgb(240, 41, 41);
+        }
+        .text-sucess{
+            color: limegreen !important;
+            font-size: 14px !important;
+        }
+        .text-danger{
+            color: orangered !important;
+            font-size: 14px !important;
+        }
+    </style>
+</head>
+<body>
+  
+    <section class="mt-5">
+               <div class="container">
+         <div class="row">
+             <div class="col-md-4 m-auto">
+                 <div class="card">
+                     <div class="card-header">
+                        <h3>Register here</h3>
+                     </div>
+                     <div class="card-body">
+                        <form id="regiter-form">
+                            <div class="form-group">
+                                <input id="username" type="text" class="form-control" placeholder="UserName">
+                                <div id="username_feedback"></div>
+                            </div>
+                            <div class="form-group">
+                                <input id="email" type="text" class="form-control" placeholder="Email">
+                                <div id="email_feedback"></div>
+                            </div>
+                            <div class="form-group">
+                                <input id="password" type="text" class="form-control" placeholder="Password">
+                                <div id="password_feedback"></div>
+                            </div>
+                            <div class="form-group">
+                                <input id="c_password" type="password" class="form-control" placeholder="Confirm Password">
+                                <div id="c_password_feedback"></div>
+                            </div>
+                            <div class="text-center">
+                                <input type="submit" value="Register" class="btn btn-sucess">
+                            </div>
+                        </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
